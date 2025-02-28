@@ -4,10 +4,6 @@ class Start {
     fun gamestart(){
         val player = Player()
         var name = player.enterName()
-
-
-
-
     }
 
     //Method choose randomly some words
@@ -18,6 +14,11 @@ class Start {
         val randomWords = words.first
         val numberofChar = randomWords.length
         println("Vous devez trouvez" + numberofChar + "Caratères")
+    }
+
+    fun verificationWord(){
+
+
     }
 
     fun playerEntry() {
